@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ================================
+   CLEAN ANIMATED GLOW BORDER
+   (NO DUPLICATE / NO ILLUSION)
+================================ */
+
+.glow-border {
+  position: relative;
+  padding: 2px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #22c55e, #22d3ee, #22c55e);
+  animation: glowMove 4s linear infinite;
+}
+
+.glow-inner {
+  background: #020617;
+  border-radius: 14px;
+  height: 100%;
+}
+
+@keyframes glowMove {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
