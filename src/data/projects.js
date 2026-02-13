@@ -1,11 +1,11 @@
 export const projects = [
     {
       id: 1,
-      title: "Restaurant Website",
-      description: "Modern responsive website for restaurants",
+      title: "Smart water meter",
+      description: "Modern responsive webapp for smart meter",
       tech: ["React", "Tailwind"],
-      image: "/projects/restaurant.png",
-      liveUrl: "https://restaurant-demo.vercel.app",
+      image: "/projects-image/smart-water-meter.png",
+      liveUrl: "https://smart-water-meter-c.netlify.app/",
     },
     {
       id: 2,
