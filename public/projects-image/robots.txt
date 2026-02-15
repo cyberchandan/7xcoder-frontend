@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+https://7xcoder.com/robots.txt
