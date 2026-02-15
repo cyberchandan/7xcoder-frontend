@@ -15,7 +15,7 @@ export default function Contact() {
   const handleSubmit =async (e) => {
     e.preventDefault();
     
-    const res=await fetch('http://localhost:3000/api/contact',{
+    const res=await fetch('https://sevenxcoder-backend.onrender.com/api/contact',{
       method:"POST",
       headers:{
         "content-Type" :"application/json",
